@@ -4,7 +4,7 @@ import AuthCard from "../../components/auth/AuthCard";
 import { cx } from "../../lib/cx";
 import s from "../../components/auth/auth.module.css";
 
-export const metadata = { title: "เข้าสู่ระบบ | Moonlit Fest 2026" };
+export const metadata = { title: "เข้าสู่ระบบ | TicketCSI200" };
 
 /** /login (เปิดแท็บสมัครสมาชิกด้วย /login?tab=register) */
 export default async function LoginPage({ searchParams }) {

@@ -6,7 +6,7 @@ import { lineKey, summarize } from "../lib/cart";
 
 /** ตะกร้าสินค้า: บัตรและของที่ระลึกเป็นสินค้าอิสระต่อกัน (ซื้ออย่างใดอย่างหนึ่งได้) */
 export function useCart() {
-  const [stored, setStored] = usePersistentState("moonlit-cart", []);
+  const [stored, setStored] = usePersistentState("ticket-cart", []);
 
   const lines = useMemo(
     () => stored.filter((l) => PRODUCTS_BY_ID[l.id] && l.qty > 0),
